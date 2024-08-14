@@ -56,8 +56,8 @@ def save_packets(file):
 
 
 if __name__ == "__main__" :
-    interface = "lo"
-    filter = "tcp"
+    interface = None
+    filter = None
     try:
         analyse(interface, filter)
     except Exception as e:
